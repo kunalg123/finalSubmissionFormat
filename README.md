@@ -98,6 +98,7 @@ Vdd 0 1 3.3V
 ### To observe the Zero Current State
 
 **WARNING! : This method is flawed and yields incorrect results, uploaded only to maintain Log.**
+
 Ensure the following directives are present
 
 ```
