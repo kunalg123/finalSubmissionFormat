@@ -1,5 +1,6 @@
 # Bandgap reference simulation on LTspice XVII
 This project simulates the designed Bandgap reference circuit to determine its performance characterisitics. 
+
 *Note: Circuit not designed for optimal performance. Design yet to be modified.*
 
 ## About LTspice XVII
