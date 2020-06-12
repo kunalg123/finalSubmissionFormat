@@ -1,0 +1,36 @@
+Spice Code for cascode current mirror based BGR
+*Startup circuit
+MSU1 3 2 1 1 pmos W=3U L=0.2U
+MSU2 3 3 4 4 nmos W=0.2U L=0.2U
+MSU3 4 4 5 5 nmos W=0.2U L=0.2U
+MSU4 5 5 0 0 nmos W=0.2U L=0.2U
+MSU5 8 3 7 7 pmos W=3U L=0.2U
+*................................
+*.ic   V(8)=0V V(9)=0V
+M1 6 2 1 1 pmos W=3U L=0.2U
+M2 2 2 1 1 pmos W=3U L=0.2U
+M3 14 2 1 1 pmos W=3U L=0.2U
+M4 8 7 6 6 pmos W=3U L=0.2U
+M5 7 7 2 2 pmos W=3U L=0.2U
+M6 Vref 7 14 14 pmos W=3U L=0.2U
+M7 8 8 9 9 nmos W=1U L=0.2U
+M8 7 8 11 11 nmos W=1U L=0.2U
+M9 9 9 10 10 nmos W=1U L=0.2U
+M10 11 9 12 12 nmos W=1U L=0.2U
+*................................
+R1 12 13 2.2K
+R2 Vref 15 19K
+D1 10 0 PNPDIODE
+D2 13 0 PNPDIODE 8
+D3 15 0 PNPDIODE 8
+Vdd 1 0 3.3
+*Vdd 1 0 ac sine(3.3 1.3 50)
+.model PNPDIODE D is=1e-18 n=1
+.lib osu018.lib
+*.dc Vdd 2 4 0.1
+*.ac oct 100 1 100k
+*.temp 27
+*.tran 0 100
+*.step temp -40 140 1
+.op
+.end
