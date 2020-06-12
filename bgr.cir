@@ -1,22 +1,22 @@
 Spice Code for cascode current mirror based BGR
 *Startup circuit
-MSU1 3 2 1 1 pmos W=3U L=0.2U
-MSU2 3 3 4 4 nmos W=0.2U L=0.2U
-MSU3 4 4 5 5 nmos W=0.2U L=0.2U
-MSU4 5 5 0 0 nmos W=0.2U L=0.2U
-MSU5 8 3 7 7 pmos W=3U L=0.2U
+MSU1 3 2 1 1 p_mos W=3U L=0.2U
+MSU2 3 3 4 4 n_mos W=0.2U L=0.2U
+MSU3 4 4 5 5 n_mos W=0.2U L=0.2U
+MSU4 5 5 0 0 n_mos W=0.2U L=0.2U
+MSU5 8 3 7 7 p_mos W=3U L=0.2U
 *................................
 *.ic   V(8)=0V V(9)=0V
-M1 6 2 1 1 pmos W=3U L=0.2U
-M2 2 2 1 1 pmos W=3U L=0.2U
-M3 14 2 1 1 pmos W=3U L=0.2U
-M4 8 7 6 6 pmos W=3U L=0.2U
-M5 7 7 2 2 pmos W=3U L=0.2U
-M6 Vref 7 14 14 pmos W=3U L=0.2U
-M7 8 8 9 9 nmos W=1U L=0.2U
-M8 7 8 11 11 nmos W=1U L=0.2U
-M9 9 9 10 10 nmos W=1U L=0.2U
-M10 11 9 12 12 nmos W=1U L=0.2U
+M1 6 2 1 1 p_mos W=3U L=0.2U
+M2 2 2 1 1 p_mos W=3U L=0.2U
+M3 14 2 1 1 p_mos W=3U L=0.2U
+M4 8 7 6 6 p_mos W=3U L=0.2U
+M5 7 7 2 2 p_mos W=3U L=0.2U
+M6 Vref 7 14 14 p_mos W=3U L=0.2U
+M7 8 8 9 9 n_mos W=1U L=0.2U
+M8 7 8 11 11 n_mos W=1U L=0.2U
+M9 9 9 10 10 n_mos W=1U L=0.2U
+M10 11 9 12 12 n_mos W=1U L=0.2U
 *................................
 R1 12 13 2.2K
 R2 Vref 15 19K
