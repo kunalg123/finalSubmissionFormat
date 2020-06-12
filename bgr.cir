@@ -30,7 +30,7 @@ Vdd 1 0 3.3
 *.dc Vdd 2 4 0.1
 *.ac oct 100 1 100k
 *.temp 27
-*.tran 0 100
+*.tran 0 100ns
 *.step temp -40 140 1
 .op
 .end
