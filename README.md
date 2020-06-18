@@ -116,6 +116,8 @@ $  ngspice w_o_startup.cir
 
 ### To determine the Start-up time
 
+**WARNING! : This method is flawed and yields incorrect results, uploaded only to maintain Log**
+
 Open your terminal and change the working directory to the folder where your netlist file is saved.
 Run the netlist file using the following command.
 ```
@@ -260,7 +262,6 @@ Vdd 0 1 3.3V
 
 ### To observe the Zero Current State
 
-**WARNING! : This method is flawed and yields incorrect results, uploaded only to maintain Log.**
 <img align="right" width="260" height="200" src=/Images/1.1.png>
 
 Ensure the following directives are present
