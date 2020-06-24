@@ -1,0 +1,30 @@
+VBGP v/s VDD [2V - 4V ] @ RL=100 Mega ohms
+M1 3 2 1 1 pfet W=wp L=ll
+M2 2 2 1 1 pfet W=wp L=ll
+M3 6 2 1 1 pfet W=wp L=ll
+M4 5 4 3 3 pfet W=wp L=ll
+M5 4 4 2 2 pfet W=wp L=ll
+M6 vref 4 6 6 pfet W=wp L=ll
+M7 5 5 7 7 nfet W=wn L=ll
+M8 4 5 8 8 nfet W=wn L=ll
+D1 7 0 PNPDIODE
+R1 8 11 9.6K
+D2 11 0 PNPDIODE 8
+R2 vref 12 81.0K
+D3 12 0 PNPDIODE 8
+M9 a a 1 1 pfet W=0.5U L=2U
+M10 2 a 5 5 nfet W=10U L=ll
+M11 a 5 0 0 nfet W=wn L=ll
+.param wp=25.0U wn=8U ll=1U
+Rl vref load 100M
+Cl load 0 50pF
+Vdd 1 0 3.3V
+.model PNPDIODE D is=1e-18 n=1
+.include osu018.lib
+.dc Vdd 2 4 0.1 temp -40C 140C 30C
+.control
+run
+plot v(load)
+.endc
+.end
+
