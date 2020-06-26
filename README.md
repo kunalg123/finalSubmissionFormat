@@ -76,7 +76,7 @@ ngspice 1 ->  quit
 
 There are several waveforms that need to be obtained to observe the performance of the Bandgap reference circuit.
 
-*****************************
+
 
 ## Pre-Layout Simulation
 
