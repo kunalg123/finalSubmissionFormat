@@ -14,6 +14,12 @@ To review the previous Bandgap Reference Design, read [this](/Documentation/READ
 
 The  Design Specifications of the Bandgap Reference Circuit can be found [here](/Documentation/Specifications.pdf).
 
+### Block Diagram of the Bandgap Reference IP
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/Final/block.png">
+</p>
+
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
 
@@ -72,7 +78,7 @@ Run the netlist file using the following command.
 $  ngspice temp_variation.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/s.temp_variation.png">
+  <img width="800" height="500" src="/Images/Final/temp_var.png">
 </p>
 
 
@@ -83,7 +89,7 @@ Run the netlist file using the following command.
 $  ngspice supply_variation.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/s.supply_variation.png">
+  <img width="800" height="500" src="/Images/Final/s.supply_var.png">
 </p>
 
 ### To obtain the Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -93,7 +99,7 @@ Run the netlist file using the following command.
 $  ngspice ppm_variation.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/s.ppm.png">
+  <img width="800" height="500" src="/Images/Final/ppm_variation.png">
 </p>
 
 ### To obtain the Voltage Coefficent of Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
@@ -103,7 +109,7 @@ Run the netlist file using the following command.
 $  ngspice vc_variation.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/s.vc_variation.png">
+  <img width="800" height="500" src="/Images/Final/vc_variation.png">
 </p>
 
 ### To obtain the Start Up Time plot
@@ -114,7 +120,7 @@ Run the netlist file using the following command.
 $  ngspice startup.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/s.startup.png">
+  <img width="800" height="500" src="/Images/Final/startup.png">
 </p>
 
 
@@ -127,10 +133,20 @@ Run the netlist file using the following command.
 $  ngspice noise_analysis.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/s.noise_analysis.png">
+  <img width="800" height="500" src="/Images/Final/noise_analysis.png">
 </p>
 
+### To observe the On State Current & Off State Current
 
+
+Open your terminal and change the working directory to the folder where your netlist file is saved.
+Run the netlist file using the following command.
+```
+$  ngspice enable.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/Final/enable.png">
+</p>
 
 
 
