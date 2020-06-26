@@ -89,7 +89,7 @@ Run the netlist file using the following command.
 $  ngspice supply_variation.cir
 ```
  <p align="center">
-  <img width="800" height="500" src="/Images/Final/s.supply_var.png">
+  <img width="800" height="500" src="/Images/Final/supply_var.png">
 </p>
 
 ### To obtain the Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
