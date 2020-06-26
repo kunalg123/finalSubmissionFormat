@@ -20,6 +20,12 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="800" height="500" src="/Images/Final/block.png">
 </p>
 
+### Circuit Diagram of the Bandgap Reference IP
+
+<p align="center">
+  <img width="800" height="500" src="/Images/Final/schematic.png">
+</p>
+
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
 
