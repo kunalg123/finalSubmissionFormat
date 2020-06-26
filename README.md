@@ -23,7 +23,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 ### Circuit Diagram of the Bandgap Reference IP
 
 <p align="center">
-  <img width="800" height="500" src="/Images/Final/schematic.png">
+  <img width="800" height="500" src="/Images/Final/schematic_new.png">
 </p>
 
 
