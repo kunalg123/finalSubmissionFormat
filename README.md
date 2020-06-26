@@ -145,7 +145,7 @@ Run the netlist file using the following command.
 $  ngspice enable.cir
 ```
  <p align="center">
-  <img width="800" height="1000" src="/Images/Final/enable.png">
+  <img width="700" height="1000" src="/Images/Final/enable.png">
 </p>
 
 
