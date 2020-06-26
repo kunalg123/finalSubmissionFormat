@@ -26,6 +26,8 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="800" height="500" src="/Images/Final/schematic_new.png">
 </p>
 
+*Note: Aspect Ratios of transistors, values of resistors, and other pertinent values will be updated in the circuit diagram soon.*
+
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
 
