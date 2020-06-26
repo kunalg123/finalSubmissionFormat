@@ -1,0 +1,38 @@
+VBGP v/s Temperature [-40c - 140 ] 
+M1 3 2 1 1 pfet W=wp L=ll
+M2 2 2 1 1 pfet W=wp L=ll
+M3 6 2 1 1 pfet W=wp L=ll
+M4 5 4 3 3 pfet W=wp L=ll
+M5 4 4 2 2 pfet W=wp L=ll
+M6 vref 4 6 6 pfet W=wp L=ll
+M7 5 5 7 7 nfet W=wn L=ll
+M8 4 5 8 8 nfet W=wn L=ll
+D1 7 0 PNPDIODE
+R1 8 11 9.6K
+D2 11 0 PNPDIODE 8
+R2 vref 12 81.4K
+D3 12 0 PNPDIODE 8
+M9 a 2 1 1 pfet W=8U L=ll
+M10 5 a 4x 4x pfet W=4U L=0.5U
+M11 a a b b nfet W=3U L=3u
+M12 b b c c nfet W=3U L=3u
+M13 c c 0 0 nfet W=3U L=3U
+M14 5 en_bar 0 0 nfet W=1U L=3u
+M15 4 en 4x 4x  nfet W=1U L=3U
+M16 en_bar en x x pfet W=3U L=1U
+M17 en_bar en 0 0 nfet W=2U L=1U
+Rl vref 0 100MEG
+Cl vref 0 50pF
+.param wp=25.0U wn=6U ll=1U
+Vdd 1 0 3.3V
+Vdd_inv x 0 1.8V
+Vd_en en 0 1.8V
+.dc temp -40 140 1
+.model PNPDIODE D is=1e-18 n=1
+.include osu018.lib
+.control
+run
+plot v(vref)
+.endc
+.end
+
