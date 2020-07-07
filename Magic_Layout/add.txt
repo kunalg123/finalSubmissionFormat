@@ -1,0 +1,19 @@
+
+
+
+Vdd 1 0 dc 3.3V
+D1 4 0 PNPDIODE
+D2 6 0 PNPDIODE 8
+D3 7 0 PNPDIODE 8
+
+R1 5 6 9k
+R2 vref 7 84K
+RL vref 0 100MEG
+.dc temp -40 140 1
+.include osu_018.lib
+.model PNPDIODE D is=1e-18 n=1
+.control
+run
+plot V(vref)
+.endc
+.end
