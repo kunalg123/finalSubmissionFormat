@@ -1,3 +1,5 @@
+# INCOMPLETE!!!!!
+
 # Bandgap Reference Design 
 This project simulates the designed Bandgap Reference circuit to determine its performance characterisitics pre-layout and post-layout. 
 
