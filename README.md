@@ -55,7 +55,52 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 ## Performance Characteristics
 
+
 ### PreLayout Performance Characteristics
+
+###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/pre/pre_temp.png">
+</p>
+
+
+###  Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/pre/pre_vdd.png">
+</p>
+
+###  Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/pre/pre_tc.png">
+</p>
+
+###  Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/pre/pre_vc.png">
+</p>
+
+###  Start-Up Time of Vbgp @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/pre/pre_startup.png">
+</p>
+
+
+###  On-Current of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/pre/pre_current.png">
+</p>
 
 ### PostLayout Performance Charcateristics
 
