@@ -104,7 +104,43 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 ### PostLayout Performance Charcateristics
 
+###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
 
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/post/post_temp.png">
+</p>
+
+
+###  Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/post/post_vdd.png">
+</p>
+
+###  Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/post/post_tc.png">
+</p>
+
+###  Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/post/post_vc.png">
+</p>
+
+
+
+###  On-Current of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+ <p align="center">
+  <img width="800" height="500" src="/Images/New/post/post_current.png">
+</p>
 
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
@@ -155,72 +191,6 @@ ngspice 1 ->  quit
 There are several waveforms that need to be obtained to observe the performance of the Bandgap reference circuit.
 
 *****************************
-
-### To obtain the Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-
-Open your terminal and change the working directory to the folder where your netlist file is saved.
-Run the netlist file using the following command.
-```
-$  ngspice temp_variation.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/s.temp_variation.png">
-</p>
-
-
-### To obtain the Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
-Open your terminal and change the working directory to the folder where your netlist file is saved.
-Run the netlist file using the following command.
-```
-$  ngspice supply_variation.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/s.supply_variation.png">
-</p>
-
-### To obtain the Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-Open your terminal and change the working directory to the folder where your netlist file is saved.
-Run the netlist file using the following command.
-```
-$  ngspice ppm_variation.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/s.ppm.png">
-</p>
-
-### To obtain the Voltage Coefficent of Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
-Open your terminal and change the working directory to the folder where your netlist file is saved.
-Run the netlist file using the following command.
-```
-$  ngspice vc_variation.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/s.vc_variation.png">
-</p>
-
-### To obtain the Start Up Time plot
-
-Open your terminal and change the working directory to the folder where your netlist file is saved.
-Run the netlist file using the following command.
-```
-$  ngspice startup.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/s.startup.png">
-</p>
-
-
-### To observe the Output Noise Spectral Density plot
-
-
-Open your terminal and change the working directory to the folder where your netlist file is saved.
-Run the netlist file using the following command.
-```
-$  ngspice noise_analysis.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/s.noise_analysis.png">
-</p>
 
 
 
