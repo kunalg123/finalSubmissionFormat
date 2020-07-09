@@ -145,52 +145,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 <img align="left" width="60" height="50" src=/Images/ng_logo.png>
 
-## About Ngspice 
-Ngspice is an open source mixed-signal circuit simulator.
 
-### Installing Ngspice
-
-#### For Ubuntu
-
-Open your terminal and type the following to install Ngspice
-```
-$  sudo apt-get install -y ngspice
-```
-
-## Running the Simulation
-
-To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
-
-```
-$  sudo apt install -y git
-$  git clone https://github.com/sherylcorina/BandgapReference
-$  cd BandgapReference/Simulation/Ngspice_Simulation/Simulation_Week_4_5
-```
-
-*Note: Before running simulation, ensure that the osu018.lib file is in the same directory as the other .cir files. Else you will need to modify the .cir files and add the approporiate path of osu018.lib*
-
-To enter the Ngspice Shell, open the terminal & type:
-```
-$ ngspice
-```
-To simulate a netlist, type:
-```
-ngspice 1 ->  source <filename>.cir
-```
-
-You can exit from the Ngspice Shell by typing:
-```
-ngspice 1 ->  exit
-```
- <p align="center"> or </p>
- 
-```
-ngspice 1 ->  quit
-```
-
-There are several waveforms that need to be obtained to observe the performance of the Bandgap reference circuit.
-
-*****************************
 
 
 
