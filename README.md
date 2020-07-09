@@ -53,10 +53,10 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 
 
-## Performance Characteristics
 
 
-### PreLayout Performance Characteristics
+
+## PreLayout Performance Characteristics
 
 ###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
 
@@ -102,7 +102,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="800" height="500" src="/Images/New/pre/pre_current.png">
 </p>
 
-### PostLayout Performance Charcateristics
+## PostLayout Performance Charcateristics
 
 ###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
 
