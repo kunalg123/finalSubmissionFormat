@@ -1,0 +1,142 @@
+scale 1000 1 10
+rnode "0.t0" 0 0 -154 134 0
+rnode "0" 0 0 111 -754 0
+resist "0" "0.t0" 10.1725
+killnode "m_l_0/c"
+rnode "m_l_0/c.t0" 0 469.041 -144 134 0
+rnode "m_l_0/c.t1" 0 120.959 -149 134 0
+resist "m_l_0/c.t0" "m_l_0/c.t1" 38.6092
+rnode "m_l_0/b.t1" 0 57.6571 -114 134 0
+rnode "m_l_0/b.n0" 0 157.216 -104 145 0
+rnode "m_l_0/b.n1" 0 115.917 -104 145 0
+rnode "m_l_0/b.t0" 0 129.148 -119 134 0
+rnode "m_l_0/b" 0 112.405 -103 135 0
+rnode "m_l_0/b.t2" 0 57.6571 -94 134 0
+resist "m_l_0/b.n0" "m_l_0/b.t0" 38.6067
+resist "m_l_0/b" "m_l_0/b.n0" 0.0290259
+resist "m_l_0/b.n0" "m_l_0/b.n1" 3.00322
+resist "m_l_0/b.n1" "m_l_0/b.t2" 2.233
+resist "m_l_0/b.t1" "m_l_0/b.n1" 2.233
+rnode "a.t3" 0 352.689 -41 266 0
+rnode "a.t0" 0 196.576 -78 266 0
+rnode "a.t1" 0 137.727 -89 134 0
+rnode "a.t2" 0 191.909 -84 134 0
+rnode "a.n0" 0 404.141 -74 157 0
+rnode "a.n1" 0 833.584 -73 183 0
+rnode "a" 0 203.374 -61 182 0
+resist "a.n1" "a.n0" 0.195
+resist "a.n0" "a.t2" 4.94155
+resist "a.n1" "a.t0" 10.335
+resist "a" "a.n1" 16.95
+resist "a.n0" "a.t1" 38.51
+resist "a" "a.t3" 95.287
+rnode "8.t0" 0 85.7983 53 -389 0
+rnode "8.n0" 0 5.75284 48 -484 0
+rnode "8" 0 58.4488 47 -475 0
+resist "8" "8.n0" 0.09
+resist "8" "8.t0" 2.01678
+rnode "7.t0" 0 117.48 1 -389 0
+rnode "7" 0 82.5203 -4 -477 0
+resist "7" "7.t0" 2.03678
+rnode "vref.t0" 0 28.1591 115 -143 0
+rnode "vref.n0" 0 24.2883 120 -484 0
+rnode "vref" 0 157.553 120 -307 0
+resist "vref" "vref.n0" 1.77
+resist "vref" "vref.t0" 11.3379
+rnode "6.t4" 0 143.279 58 -389 0
+rnode "6.t0" 0 132.642 6 -389 0
+rnode "6.t3" 0 99.3987 11 -143 0
+rnode "6.t1" 0 184.803 11 -389 0
+rnode "6.t2" 0 174.459 -37 266 0
+rnode "6.n0" 0 1139.78 16 -300 0
+rnode "6.n1" 0 68.2924 16 -300 0
+rnode "6" 0 77.3439 31 -299 0
+resist "6.n0" "6.t1" 1.97144
+resist "6.n1" "6.n0" 5.4
+resist "6.n0" "6.t3" 11.2179
+resist "6" "6.n1" 11.55
+resist "6.n0" "6.t2" 18.0412
+resist "6.n1" "6.t0" 72.38
+resist "6" "6.t4" 85.47
+rnode "4.t2" 0 563.616 58 -143 0
+rnode "4.t5" 0 621.151 110 -143 0
+rnode "4.t3" 0 100.869 63 -143 0
+rnode "4.t1" 0 688.285 63 -389 0
+rnode "4.n0" 0 1245.1 68 -121 0
+rnode "4.n1" 0 362.544 68 20 0
+rnode "4.n2" 0 221.793 58 15 0
+rnode "4.t4" 0 563.616 6 -143 0
+rnode "4.t0" 0 753.887 -45 266 0
+rnode "4.n3" 0 521.293 6 15 0
+rnode "4" 0 67.8426 56 19 0
+resist "4" "4.n2" 1.54
+resist "4.n0" "4.t1" 3.57815
+resist "4.n1" "4.n0" 7.01677
+resist "4.n2" "4.n1" 7.7
+resist "4.n0" "4.t3" 9.71119
+resist "4" "4.n3" 38.5
+resist "4.n3" "4.t0" 62.5692
+resist "4.n2" "4.t2" 121.66
+resist "4.n3" "4.t4" 121.66
+resist "4.n1" "4.t5" 154
+killnode "5"
+rnode "5.n0" 0 21.7756 53 186 0
+rnode "5.n1" 0 21.7756 1 186 0
+rnode "5.n2" 0 12.7884 -88 266 0
+rnode "5.n3" 0 199.721 -4 371 0
+rnode "5.n4" 0 240.938 48 371 0
+rnode "5.n5" 0 23.0013 105 186 0
+resist "5.n4" "5.n3" 0.122
+resist "5.n3" "5.n2" 10.761
+resist "5.n4" "5.n0" 11.548
+resist "5.n3" "5.n1" 11.548
+resist "5.n5" "5.n4" 11.6691
+killnode "3"
+rnode "3.n0" 0 20.9381 53 186 0
+rnode "3.n1" 0 22.1218 105 186 0
+rnode "3.n2" 0 231.666 48 371 0
+rnode "3.n3" 0 12.2966 -88 266 0
+rnode "3.n4" 0 192.045 -4 371 0
+rnode "3.n5" 0 20.9328 1 186 0
+resist "3.n4" "3.n2" 0.122
+resist "3.n4" "3.n3" 10.761
+resist "3.n5" "3.n4" 11.5471
+resist "3.n2" "3.n0" 11.548
+resist "3.n2" "3.n1" 11.67
+killnode "1"
+rnode "1.t2" 0 3198.93 1 186 0
+rnode "1.t1" 0 3198.93 53 186 0
+rnode "1.t0" 0 3379.77 105 186 0
+rnode "1.n0" 0 35393.9 48 371 0
+rnode "1.n1" 0 29339.8 -4 371 0
+rnode "1.t3" 0 1878.65 -88 266 0
+resist "1.n1" "1.n0" 0.122
+resist "1.t3" "1.n1" 10.76
+resist "1.n0" "1.t1" 11.548
+resist "1.n1" "1.t2" 11.548
+resist "1.n0" "1.t0" 11.67
+killnode "2"
+rnode "2.n0" 0 254.401 105 186 0
+rnode "2.n1" 0 240.788 1 186 0
+rnode "2.n2" 0 141.41 -88 266 0
+rnode "2.n3" 0 2208.46 -4 371 0
+rnode "2.n4" 0 2664.22 48 371 0
+rnode "2.n5" 0 240.727 53 186 0
+resist "2.n4" "2.n3" 0.122
+resist "2.n3" "2.n2" 10.761
+resist "2.n5" "2.n4" 11.5471
+resist "2.n3" "2.n1" 11.548
+resist "2.n4" "2.n0" 11.67
+device mosfet pfet -45 206 -44 207  8 120 "ERROR" "a.t3" 16 0 "4.t0" 120 0 "6.t2" 120 0
+device mosfet nfet -154 119 -153 120  10 30 "ERROR" "m_l_0/c.t1" 20 0 "0.t0" 30 0 "m_l_0/c.t0" 30 0
+device mosfet nfet -124 119 -123 120  10 30 "ERROR" "m_l_0/b.t0" 20 0 "m_l_0/c.t0" 30 0 "m_l_0/b.t1" 30 0
+device mosfet nfet -94 119 -93 120  10 30 "ERROR" "a.t1" 20 0 "m_l_0/b.t2" 30 0 "a.t2" 30 0
+device mosfet pfet -88 206 -87 207  10 120 "ERROR" "2" 20 0 "1.t3" 120 0 "a.t0" 120 0
+device mosfet nfet 53 -459 54 -458  10 140 "ERROR" "6.t4" 20 0 "8.t0" 140 0 "4.t1" 140 0
+device mosfet nfet 1 -459 2 -458  10 140 "ERROR" "6.t0" 20 0 "7.t0" 140 0 "6.t1" 140 0
+device mosfet pfet 105 -283 106 -282  10 280 "ERROR" "4.t5" 20 0 "5" 280 0 "vref.t0" 280 0
+device mosfet pfet 53 -283 54 -282  10 280 "ERROR" "4.t2" 20 0 "2" 280 0 "4.t3" 280 0
+device mosfet pfet 1 -283 2 -282  10 280 "ERROR" "4.t4" 20 0 "3" 280 0 "6.t3" 280 0
+device mosfet pfet 105 46 106 47  10 280 "ERROR" "2" 20 0 "1.t0" 280 0 "5" 280 0
+device mosfet pfet 53 46 54 47  10 280 "ERROR" "2" 20 0 "1.t1" 280 0 "2" 280 0
+device mosfet pfet 1 46 2 47  10 280 "ERROR" "2" 20 0 "1.t2" 280 0 "3" 280 0

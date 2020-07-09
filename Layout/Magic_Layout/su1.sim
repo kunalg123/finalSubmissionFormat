@@ -1,0 +1,7 @@
+| units: 10 tech: scmos format: MIT
+p a_1_n4# a_n9_n1# a_11_n1# 10 120 1 0
+R a_11_n1# 91
+R a_n9_n1# 91
+R a_1_n4# 97
+C w_n15_n7# GND 4.21
+R w_n15_n7# 2920

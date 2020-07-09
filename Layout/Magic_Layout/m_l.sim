@@ -1,0 +1,7 @@
+| units: 10 tech: scmos format: MIT
+n a_n417_n20# b a_n417_n20# 10 30 -416 -16
+n b c b 10 30 -446 -16
+n c a_n497_n17# c 10 30 -476 -16
+R a_n417_n20# 68
+R b 68
+R c 68
