@@ -57,7 +57,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 |Vbgp|Output Reference voltage|1.1698 |1.2056|1.2234|V|VDD=2.7V to VDD=3.6V, T=27C|
 |TC_vbgp|Temperature Coefficient of Vbgp||26.1263||ppm/C|T=-40 to 125C, VDD=3.3V|
 |VC_vbgp|Voltage Coefficient of Vbgp||5.9555||%/V|VDD=2.7V to 3.7, T=27C|
-|Tstart|Start up time||3.3||uS|Vdd=3.3V, T=27C, CL=50pF|
+|Tstart|Start up time||3.3||us|Vdd=3.3V, T=27C, CL=50pF|
 |VDD|Supply Voltage|3.2|3.3|3.6|V|T=-40C to 125C|
 |IDD|Supply Current||22.4760||uA|EN=1|
 |IDD|Supply Current||95.3950||pA|EN=0|
