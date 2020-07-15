@@ -47,8 +47,20 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="500" height="400" src="/Images/N/bjt.png">
 </p>
 
+## Bandgap Performance Parameters [POST-LAYOUT]
 
-
+| Parameter| Description| Min | Type | Max | Unit | Condition |
+| :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
+|RL|Load resistance at Vbgp terminal | 100|||Mohm|VDD=3.3V, T=27C|
+|CL|Load capacitance|||50|pF|VDD=2.7V - 3.6V, T=-40C - 125C, RL=100M|
+|Vbgp|Output Reference voltage|1.2013 |1.2056|1.2070|V|T=-40 to 140C, VDD=3.3V|
+|Vbgp|Output Reference voltage|1.1698 |1.2056|1.2234|V|VDD=2.7V to VDD=3.6V|
+|TC_vbgp|Temperature Coefficient of Vbgp||26.1263||ppm/C|T=-40 to 125C, VDD=3.3V|
+|VC_vbgp|Voltage Coefficient of Vbgp||5.9555||%/V|VDD=2.7V to 3.7, T=27C|
+|T_start|Start up time||3.3||uS|Vdd=3.3V, T=27C, CL=50pF|
+|VDD|Supply Voltage|3.2|3.3|3.6|V|T=-40C to 125C|
+|IDD|Supply Current||22.4760||uA|EN=1|
+|IDD|Supply Current||95.3950||pA|EN=0|
 
 ## Pre-Layout Performance Characteristics
 
