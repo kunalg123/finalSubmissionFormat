@@ -179,6 +179,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 - Saroj Rout, Associate Professor & Chief Mentor of VLSI Center of Excellence SIT, Bhubaneswar, India
 - Santunu Sarangi, Asst. Professor, SIT, Bhubaneswar, India
 - Tim Edwards, Senior Vice President of Analog and Design at efabless corporation
+- Ankur Sah, M.tech Embedded Systems, NIT Jamshedpur
 
 ## Contact Information
 
