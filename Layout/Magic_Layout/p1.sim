@@ -1,7 +1,0 @@
-| units: 10 tech: scmos format: MIT
-p a_0_n3# a_n10_0# a_10_0# 10 280 0 0
-R a_10_0# 213
-R a_n10_0# 213
-R a_0_n3# 220
-C w_n16_n6# GND 9.32
-R w_n16_n6# 6459
