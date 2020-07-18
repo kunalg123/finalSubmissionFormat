@@ -1,0 +1,62 @@
+magic
+tech scmos
+timestamp 1594253749
+<< ntransistor >>
+rect 9 0 19 140
+<< ndiffusion >>
+rect -1 128 0 140
+rect 8 128 9 140
+rect -1 111 9 128
+rect -1 99 0 111
+rect 8 99 9 111
+rect -1 79 9 99
+rect -1 67 0 79
+rect 8 67 9 79
+rect -1 45 9 67
+rect -1 33 0 45
+rect 8 33 9 45
+rect -1 12 9 33
+rect -1 0 0 12
+rect 8 0 9 12
+rect 19 128 20 140
+rect 28 128 29 140
+rect 19 111 29 128
+rect 19 99 20 111
+rect 28 99 29 111
+rect 19 79 29 99
+rect 19 67 20 79
+rect 28 67 29 79
+rect 19 45 29 67
+rect 19 33 20 45
+rect 28 33 29 45
+rect 19 12 29 33
+rect 19 0 20 12
+rect 28 0 29 12
+<< ndcontact >>
+rect 0 128 8 140
+rect 0 99 8 111
+rect 0 67 8 79
+rect 0 33 8 45
+rect 0 0 8 12
+rect 20 128 28 140
+rect 20 99 28 111
+rect 20 67 28 79
+rect 20 33 28 45
+rect 20 0 28 12
+<< polysilicon >>
+rect 9 140 19 143
+rect 9 -3 19 0
+<< metal1 >>
+rect 0 140 8 143
+rect 0 111 8 128
+rect 0 79 8 99
+rect 0 45 8 67
+rect 0 12 8 33
+rect 0 -3 8 0
+rect 20 140 28 143
+rect 20 111 28 128
+rect 20 79 28 99
+rect 20 45 28 67
+rect 20 12 28 33
+rect 20 -3 28 0
+<< end >>
