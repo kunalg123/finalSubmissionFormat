@@ -1,6 +1,0 @@
-* SPICE3 file created from n1.ext - technology: scmos
-
-.option scale=0.1u
-
-M1000 a_19_0# a_9_n3# a_n1_0# w_n1073741817_n1073741817# nfet w=140 l=10
-+  ad=1400 pd=300 as=1400 ps=300
