@@ -1,0 +1,131 @@
+Post Layout - Temperature Coefficient Variation
+* SPICE3 file created from copy.ext - technology: scmos
+
+.option scale=0.1u
+
+Q1000 0 1 1 PNP
+M1001 2 2 1 1 pfet w=280 l=10
++  ad=5600 pd=1160 as=9900 ps=2080
+Q1002 0 1 1 PNP
+M1003 3 2 1 1 pfet w=280 l=10
++  ad=5600 pd=1160 as=0 ps=0
+Q1004 0 1 1 PNP
+M1005 5 2 1 1 pfet w=280 l=10
++  ad=5600 pd=1160 as=0 ps=0
+Q1006 0 1 3 PNP
+M1007 6 4 3 1 pfet w=280 l=10
++  ad=3760 pd=836 as=0 ps=0
+Q1008 0 1 2 PNP
+M1009 4 4 2 1 pfet w=280 l=10
++  ad=2800 pd=580 as=0 ps=0
+Q1010 0 1 5 PNP
+M1011 vref 4 5 1 pfet w=280 l=10
++  ad=2800 pd=580 as=0 ps=0
+M1012 6 en_bar 0 0 nfet w=80 l=10
++  ad=2200 pd=480 as=25800 ps=5460
+M1013 a a su3_0/b 0 nfet w=10 l=30
++  ad=200 pd=60 as=200 ps=60
+M1014 su3_0/b su3_0/b su3_0/c 0 nfet w=10 l=30
++  ad=0 pd=0 as=200 ps=60
+M1015 su3_0/c su3_0/c 0 0 nfet w=10 l=30
++  ad=0 pd=0 as=0 ps=0
+M1016 6 6 7 0 nfet w=140 l=10
++  ad=0 pd=0 as=1400 ps=300
+M1017 4 6 8 0 nfet w=140 l=10
++  ad=1600 pd=360 as=1520 ps=352
+Q1018 0 1 1 PNP
+M1019 a 2 1 1 pfet w=120 l=10
++  ad=1200 pd=260 as=0 ps=0
+M1020 en_bar en 1 1 pfet w=30 l=20
++  ad=300 pd=80 as=0 ps=0
+M1021 en_bar en 0 0 nfet w=20 l=20
++  ad=200 pd=60 as=0 ps=0
+Q1022 0 1 1 PNP
+M1023 4 en 4x 0 nfet w=20 l=20
++  ad=0 pd=0 as=200 ps=60
+M1024 6 a 4x 1 pfet w=120 l=8
++  ad=0 pd=0 as=960 ps=256
+Q1025 0 1 4x PNP
+Q1026 0 0 10 PNP
+Q1027 0 0 d1_0/pnp_12/e PNP
+Q1028 0 0 9 PNP
+Q1029 0 0 9 PNP
+Q1030 0 0 10 PNP
+Q1031 0 0 10 PNP
+Q1032 0 0 9 PNP
+Q1033 0 0 d1_0/pnp_17/e PNP
+Q1034 0 0 9 PNP
+Q1035 0 0 9 PNP
+Q1036 0 0 9 PNP
+Q1037 0 0 d1_0/pnp_2/e PNP
+Q1038 0 0 10 PNP
+Q1039 0 0 10 PNP
+Q1040 0 0 9 PNP
+Q1041 0 0 9 PNP
+Q1042 0 0 7 PNP
+Q1043 0 0 10 PNP
+Q1044 0 0 10 PNP
+Q1045 0 0 10 PNP
+R0 8 9 nwellResistor w=20 l=194
+R1 vref 10 nwellResistor w=20 l=1639
+C0 4 en 0.12fF
+C1 4 6 0.28fF
+C2 d1_0/pnp_12/e 9 0.01fF
+*C3 a_228_n586# 7 0.75fF
+C4 vref 9 0.08fF
+C5 a su3_0/b 0.02fF
+C6 3 1 0.25fF
+C7 10 9 1.04fF
+C8 en_bar 1 0.04fF
+C9 1 2 4.43fF
+C10 a 6 0.27fF
+C11 a 4x 0.33fF
+C12 d1_0/pnp_12/e 10 0.03fF
+C13 5 1 0.31fF
+C14 4 1 2.76fF
+*C15 vref a_228_n586# 0.02fF
+C16 3 4 0.07fF
+*C17 a_228_n586# 10 0.02fF
+C18 4 2 0.07fF
+*C19 8 a_104_n586# 0.02fF
+C20 a 1 0.20fF
+C21 vref 1 0.06fF
+C22 1 en 0.36fF
+C23 6 1 0.23fF
+C24 9 7 0.09fF
+C25 en_bar en 0.08fF
+*C26 9 a_104_n586# 0.02fF
+C27 1 4x 0.17fF
+C28 su3_0/b su3_0/c 0.02fF
+C29 7 0 4.93fF
+C30 d1_0/pnp_2/e 0 0.22fF
+C31 d1_0/pnp_17/e 0 0.22fF
+C32 9 0 5.01fF
+C33 10 0 5.44fF
+C34 d1_0/pnp_12/e 0 0.22fF
+C35 4x 0 0.12fF
+C36 en 0 1.67fF
+C37 2 0 0.05fF
+C38 1 0 70.55fF
+C39 8 0 0.61fF
+C40 su3_0/c 0 0.95fF
+C41 su3_0/b 0 0.95fF
+C42 a 0 0.99fF
+C43 6 0 1.93fF
+C44 en_bar 0 4.36fF
+C45 vref 0 1.09fF
+C46 5 0 0.01fF
+C47 3 0 0.03fF
+C48 4 0 0.85fF
+Vdd 1 0 dc 3.3V
+Vd_en en 0 dc 3.3V
+Rl vref 0 100MEG
+.dc temp -40 140 1
+.include osu018.lib
+.model nwellResistor R (RSH=929)
+.model PNP PNP (is=1e-18 n=1)
+.control
+run
+plot deriv(V(vref))/1.2056
+.endc
+.end
