@@ -1,6 +1,0 @@
-| units: 10 tech: scmos format: MIT
-r a b 0.000000
-R b 19
-R a 22
-C a_37_n682# GND 27.31
-R a_37_n682# 83471
