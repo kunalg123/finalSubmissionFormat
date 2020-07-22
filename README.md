@@ -48,13 +48,11 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 ## Modification to the Technology File
 
-To ensure that the Vertical Parasitic PNP BJT was recognized and extracted correctly, the line below was added to the Technology File.
+**To ensure that the Vertical Parasitic PNP BJT was recognized and extracted correctly, the line below was added to the Technology File.**
 
- **device bjt PNP nwell,nsc/a,nsd pdiff,pdc/a pwell,space/w,psc/a,psd **
-
-
-
-
+```
+ device bjt PNP nwell,nsc/a,nsd pdiff,pdc/a pwell,space/w,psc/a,psd 
+```
 
 ## Bandgap Performance Parameters [Post-Layout]
 
@@ -376,6 +374,7 @@ $  ngspice post_enable.cir
 5. To adjust the reference voltage resistors must be trimmed using fuses, hence, resistor trimming must be employed in the circuit.
 6. The design must be improved to provide a higher PSRR.
 7. In the future an OTA based bandgap reference circuit will be developed with improved performance characteristics. Also, a second order bandgap reference will be studied and developed, to improve the temperature coefficient.
+8. To solve the problem of unwanted parasitic BJTs being extracted due to the modification made in the Technology File.
 
 ## Author
 
