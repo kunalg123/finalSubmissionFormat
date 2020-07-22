@@ -5,7 +5,6 @@ This project simulates the designed Bandgap Reference circuit to determine its p
 
 *Note: Circuit requires further optimization to improve performance. Design yet to be modified.*
 
-**To be updated soon**
 
 ## A Glance at the Bandgap Reference IP
 
@@ -38,7 +37,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 ### Layout of the Complete Bandgap Reference Block with Start-up & Power Down
 
  <p align="center">
-  <img width="800" height="500" src="/Images/N/layout.png">
+  <img width="600" height="700" src="/Images/N/layout.png">
 </p>
 
 ### Layout of Vertical Parasitic PNP BJT
@@ -107,7 +106,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="1000" height="500" src="/Images/N/PRE/pre_c.png">
 </p>
 
-**Not:Current without Inverter for Enable Logic**
+**Note:Current without Inverter for Enable Logic**
 
 ## PostLayout Performance Charcateristics
 
@@ -156,11 +155,61 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="1100" height="500" src="/Images/N/POST/post_c.png">
 </p>
 
-**Not:Current without Inverter for Enable Logic**
+**Note:Current without Inverter for Enable Logic**
+
+
+<img align="left" width="60" height="50" src=/Images/ng_logo.png>
 
 
 
 
+## About Ngspice 
+Ngspice is an open source mixed-signal circuit simulator.
+
+### Installing Ngspice
+
+#### For Ubuntu
+
+Open your terminal and type the following to install Ngspice
+```
+$  sudo apt-get install -y ngspice
+```
+
+## Running the Simulation
+
+Download all files from the *Ngspice Simulation* Folder.
+
+
+To enter the Ngspice Shell, open the terminal & type:
+```
+$ ngspice
+```
+To simulate a netlist, type:
+```
+ngspice 1 ->  source <filename>.cir
+```
+
+You can exit from the Ngspice Shell by typing:
+```
+ngspice 1 ->  exit
+```
+ <p align="center"> or </p>
+ 
+```
+ngspice 1 ->  quit
+```
+
+There are several waveforms that need to be obtained to observe the performance of the Bandgap reference circuit.
+
+# Pre-Layout Simulation
+
+To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+
+```
+$  sudo apt install -y git
+$  git clone https://github.com/sherylcorina/avsdbgp_3v3
+$  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PreLayout
+```
 
 
 
@@ -179,7 +228,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 - Saroj Rout, Associate Professor & Chief Mentor of VLSI Center of Excellence SIT, Bhubaneswar, India
 - Santunu Sarangi, Asst. Professor, SIT, Bhubaneswar, India
 - Tim Edwards, Senior Vice President of Analog and Design at efabless corporation
-- Ankur Sah, M.tech Embedded Systems, NIT Jamshedpur
+- Ankur Sah, M.Tech Embedded Systems, NIT Jamshedpur
 
 ## Contact Information
 
