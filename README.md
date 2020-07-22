@@ -46,6 +46,16 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="500" height="400" src="/Images/N/bjt.png">
 </p>
 
+## Modification to the Technology File
+
+To ensure that the Vertical Parasitic PNP BJT was recognized and extracted correctly, the line below was added to the Technology File.
+
+ **device bjt PNP nwell,nsc/a,nsd pdiff,pdc/a pwell,space/w,psc/a,psd **
+
+
+
+
+
 ## Bandgap Performance Parameters [Post-Layout]
 
 | Parameter| Description| Min | Type | Max | Unit | Condition |
@@ -274,7 +284,7 @@ Run the netlist file using the following command.
 $  ngspice pre_enable.cir
 ```
  <p align="center">
-  <img width="1100" height="500" src="/Images/PS/pre_ps_startup.png">
+  <img width="800" height="500" src="/Images/PS/pre_ps_startup.png">
 </p>
 
 **Note:Current without Inverter for Enable Logic**
@@ -283,7 +293,7 @@ $  ngspice pre_enable.cir
 
 ### Post-Layout Simulation
 
-Ensure the Repository with the Simulation Files are cloned. Review the section above for detailed steps.
+Ensure the Repository with the Simulation Files is cloned. Review the section above for detailed steps.
 Enter the following command in your terminal.
 ```
 $  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PostLayout
@@ -352,7 +362,7 @@ Run the netlist file using the following command.
 $  ngspice post_enable.cir
 ```
  <p align="center">
-  <img width="1100" height="500" src="/Images/PS/post_ps_startup.png">
+  <img width="800" height="500" src="/Images/PS/post_ps_startup.png">
 </p>
 
 **Note:Current without Inverter for Enable Logic**
