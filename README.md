@@ -177,8 +177,6 @@ $  sudo apt-get install -y ngspice
 
 ## Running the Simulation
 
-Download all files from the *Ngspice Simulation* Folder.
-
 
 To enter the Ngspice Shell, open the terminal & type:
 ```
@@ -201,7 +199,7 @@ ngspice 1 ->  quit
 
 There are several waveforms that need to be obtained to observe the performance of the Bandgap reference circuit.
 
-# Pre-Layout Simulation
+### Pre-Layout Simulation
 
 To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
 
@@ -214,6 +212,160 @@ $  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PreLayout
 
 
 
+### To obtain the Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+Run the netlist file using the following command.
+```
+$  ngspice pre_temp.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/pre_ps_temp.png">
+</p>
+
+
+### To obtain the Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
+
+Run the netlist file using the following command.
+```
+$  ngspice pre_supply.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/pre_ps_supply.png">
+</p>
+
+### To obtain the Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+Run the netlist file using the following command.
+```
+$  ngspice pre_tc.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/pre_ps_tc.png">
+</p>
+
+### To obtain the Voltage Coefficent of Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
+
+Run the netlist file using the following command.
+```
+$  ngspice pre_vc.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/pre_ps_vc.png">
+</p>
+
+### To obtain the Start Up Time plot
+
+
+Run the netlist file using the following command.
+```
+$  ngspice pre_startup.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/pre_ps_startup.png">
+</p>
+
+
+###  On-Off-Current of Vbgp wrt Enable [1 -> 0] @ RL = 100M ohms plot
+
+
+Run the netlist file using the following command.
+```
+$  ngspice pre_enable.cir
+```
+ <p align="center">
+  <img width="1100" height="500" src="/Images/PS/pre_ps_startup.png">
+</p>
+
+**Note:Current without Inverter for Enable Logic**
+
+***************
+
+### Post-Layout Simulation
+
+Ensure the Repository with the Simulation Files are cloned. Review the section above for detailed steps.
+Enter the following command in your terminal.
+```
+$  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PostLayout
+```
+
+
+### To obtain the Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+
+Run the netlist file using the following command.
+```
+$  ngspice post_temp.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/post_ps_temp.png">
+</p>
+
+
+### To obtain the Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
+
+Run the netlist file using the following command.
+```
+$  ngspice post_supply.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/post_ps_supply.png">
+</p>
+
+### To obtain the Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+
+Run the netlist file using the following command.
+```
+$  ngspice post_tc.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/post_ps_tc.png">
+</p>
+
+### To obtain the Voltage Coefficent of Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
+
+Run the netlist file using the following command.
+```
+$  ngspice post_vc.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/post_ps_vc.png">
+</p>
+
+### To obtain the Start Up Time plot
+
+
+Run the netlist file using the following command.
+```
+$  ngspice post_startup.cir
+```
+ <p align="center">
+  <img width="800" height="500" src="/Images/PS/post_ps_startup.png">
+</p>
+
+
+###  On-Off-Current of Vbgp wrt Enable [1 -> 0] @ RL = 100M ohms plot
+
+
+Run the netlist file using the following command.
+```
+$  ngspice post_enable.cir
+```
+ <p align="center">
+  <img width="1100" height="500" src="/Images/PS/post_ps_startup.png">
+</p>
+
+**Note:Current without Inverter for Enable Logic**
+
+## Future Work
+
+1. Improved matching techniques such as Common Centroid / Interdigitisation need to be implemented while laying out the current mirror.
+2. PNR for the designed circuit is yet to performed using the Open Source Tool provided by the OpenROAD project.
+3. Corner Analysis Testing of the bandgap reference circuit is yet to be performed.
+4. The load driving capability needs to be improved by addition of a buffer block such as an OTA or a common drain amplifier.
+5. To adjust the reference voltage resistors must be trimmed using fuses, hence, resistor trimming must be employed in the circuit.
+6. The design must be improved to provide a higher PSRR.
+7. In the future an OTA based bandgap reference circuit will be developed with improved performance characteristics. Also, a second order bandgap reference will be studied and developed, to improve the temperature coefficient.
 
 ## Author
 
