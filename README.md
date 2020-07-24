@@ -378,9 +378,9 @@ $  ngspice post_enable.cir
 
 ## Contributors 
 
-**Sheryl Serrao** 
-**Kunal Ghosh** 
-**Philipp Gühring** 
+- **Sheryl Serrao** 
+- **Kunal Ghosh** 
+- **Philipp Gühring** 
 
 
 
