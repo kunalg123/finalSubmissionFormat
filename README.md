@@ -376,9 +376,12 @@ $  ngspice post_enable.cir
 7. In the future an OTA based bandgap reference circuit will be developed with improved performance characteristics. Also, a second order bandgap reference will be studied and developed, to improve the temperature coefficient.
 8. To solve the problem of unwanted parasitic BJTs being extracted due to the modification made in the Technology File.
 
-## Author
+## Contributors 
 
 **Sheryl Serrao** 
+**Kunal Ghosh** 
+**Philipp Gühring** 
+
 
 
 ## Acknowledgments
