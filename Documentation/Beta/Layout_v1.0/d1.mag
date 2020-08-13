@@ -1,0 +1,159 @@
+magic
+tech scmos
+timestamp 1594590695
+<< metal1 >>
+rect 89 1 101 9
+rect 189 1 201 9
+rect 289 1 301 9
+rect 389 1 401 9
+rect 481 -11 489 2
+rect 89 -99 101 -91
+rect 189 -99 201 -91
+rect 289 -99 301 -91
+rect 389 -99 401 -91
+rect 481 -111 489 -99
+rect 89 -199 101 -191
+rect 189 -199 201 -191
+rect 289 -199 301 -191
+rect 389 -199 401 -191
+rect 481 -211 489 -199
+rect 89 -299 101 -291
+rect 189 -299 201 -291
+rect 289 -299 301 -291
+rect 389 -299 401 -291
+<< m2contact >>
+rect 40 40 50 50
+rect 140 40 150 50
+rect 340 40 350 50
+rect 440 40 450 50
+rect 40 -60 50 -50
+rect 140 -60 150 -50
+rect 240 -60 250 -50
+rect 340 -60 350 -50
+rect 440 -60 450 -50
+rect 40 -160 50 -150
+rect 140 -160 150 -150
+rect 340 -160 350 -150
+rect 440 -160 450 -150
+rect 40 -260 50 -250
+rect 140 -260 150 -250
+rect 340 -260 350 -250
+rect 440 -260 450 -250
+<< metal2 >>
+rect -10 40 40 50
+rect 50 40 140 50
+rect 40 -50 50 40
+rect 140 -50 150 40
+rect 350 40 440 50
+rect 340 -50 350 40
+rect 440 -50 450 40
+rect 50 -60 90 -50
+rect 100 -60 140 -50
+rect 240 -80 250 -60
+rect -10 -90 250 -80
+rect 350 -60 440 -50
+rect 340 -100 350 -60
+rect 140 -110 350 -100
+rect 140 -150 150 -110
+rect 50 -160 140 -150
+rect 40 -250 50 -160
+rect 140 -250 150 -160
+rect -10 -260 40 -250
+rect 50 -260 140 -250
+rect 350 -160 390 -150
+rect 400 -160 440 -150
+rect 340 -250 350 -160
+rect 440 -250 450 -160
+rect 350 -260 440 -250
+<< m3contact >>
+rect 90 -60 100 -50
+rect 390 -160 400 -150
+<< metal3 >>
+rect 90 -100 100 -60
+rect 90 -110 400 -100
+rect 390 -150 400 -110
+use pnp  pnp_15
+timestamp 1594574876
+transform 0 1 39 -1 0 -258
+box -48 -39 42 51
+use pnp  pnp_16
+timestamp 1594574876
+transform 1 0 148 0 1 -261
+box -48 -39 42 51
+use pnp  pnp_17
+timestamp 1594574876
+transform 1 0 248 0 1 -261
+box -48 -39 42 51
+use pnp  pnp_18
+timestamp 1594574876
+transform 1 0 348 0 1 -261
+box -48 -39 42 51
+use pnp  pnp_19
+timestamp 1594574876
+transform 1 0 448 0 1 -261
+box -48 -39 42 51
+use pnp  pnp_10
+timestamp 1594574876
+transform 1 0 48 0 1 -161
+box -48 -39 42 51
+use pnp  pnp_11
+timestamp 1594574876
+transform 1 0 148 0 1 -161
+box -48 -39 42 51
+use pnp  pnp_12
+timestamp 1594574876
+transform 1 0 248 0 1 -161
+box -48 -39 42 51
+use pnp  pnp_13
+timestamp 1594574876
+transform 1 0 348 0 1 -161
+box -48 -39 42 51
+use pnp  pnp_14
+timestamp 1594574876
+transform 1 0 448 0 1 -161
+box -48 -39 42 51
+use pnp  pnp_5
+timestamp 1594574876
+transform 1 0 48 0 1 -61
+box -48 -39 42 51
+use pnp  pnp_6
+timestamp 1594574876
+transform 1 0 148 0 1 -61
+box -48 -39 42 51
+use pnp  pnp_7
+timestamp 1594574876
+transform 1 0 248 0 1 -61
+box -48 -39 42 51
+use pnp  pnp_8
+timestamp 1594574876
+transform 1 0 348 0 1 -61
+box -48 -39 42 51
+use pnp  pnp_9
+timestamp 1594574876
+transform 1 0 448 0 1 -61
+box -48 -39 42 51
+use pnp  pnp_0
+timestamp 1594574876
+transform 1 0 48 0 1 39
+box -48 -39 42 51
+use pnp  pnp_1
+timestamp 1594574876
+transform 1 0 148 0 1 39
+box -48 -39 42 51
+use pnp  pnp_2
+timestamp 1594574876
+transform 1 0 248 0 1 39
+box -48 -39 42 51
+use pnp  pnp_3
+timestamp 1594574876
+transform 1 0 348 0 1 39
+box -48 -39 42 51
+use pnp  pnp_4
+timestamp 1594574876
+transform 1 0 448 0 1 39
+box -48 -39 42 51
+<< labels >>
+rlabel metal2 95 -257 95 -257 1 a
+rlabel metal2 95 45 95 45 1 b
+rlabel metal2 -7 -86 -7 -86 3 c
+<< end >>
