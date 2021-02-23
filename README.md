@@ -58,6 +58,7 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 | Parameter| Description| Min | Type | Max | Unit | Condition |
 | :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
+|Technology| 0.18 µm CMOS Process |
 |RL|Load resistance at Vbgp terminal | 100|||Mohm|VDD=3.3V, T=27C|
 |CL|Load capacitance at Vbgp terminal|||50|pF|VDD=2.7V - 3.6V, T=-40C - 125C, RL=100M|
 |Vbgp|Output Reference voltage|1.2013 |1.2056|1.2070|V|T=-40 to 140C, VDD=3.3V|
