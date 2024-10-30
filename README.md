@@ -97,59 +97,6 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
 
 **Note:Current without Inverter for Enable Logic**
 
-## PostLayout Performance Charcateristics
-
-###  Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/POST/post_temp.png">
-</p>
-
-
-###  Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/POST/post_supply.png">
-</p>
-
-###  Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/POST/post_tc.png">
-</p>
-
-###  Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/POST/post_vc.png">
-</p>
-
-
-
-###  Start-Up Time of Vbgp @ RL = 100M ohms plot
-
-
- <p align="center">
-  <img width="800" height="500" src="/Images/N/POST/post_startup.png">
-</p>
-
-
-###  On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
-
- <p align="center">
-  <img width="1100" height="500" src="/Images/N/POST/post_c.png">
-</p>
-
-**Note:Current without Inverter for Enable Logic**
-
-
-<img align="left" width="60" height="50" src=/Images/ng_logo.png>
-
-
 
 
 ## About Ngspice 
