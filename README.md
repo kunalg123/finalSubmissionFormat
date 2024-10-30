@@ -209,85 +209,11 @@ $  ngspice pre_enable.cir
   <img width="800" height="500" src="/Images/PS/pre_ps_startup.png">
 </p>
 
-**Note:Current without Inverter for Enable Logic**
+**Note: Current without Inverter for Enable Logic**
 
 ***************
 
-### Post-Layout Simulation
 
-Ensure the Repository with the Simulation Files is cloned. Review the section above for detailed steps.
-Enter the following command in your terminal.
-```
-$  cd avsdbgp_3v3/Simulation/Ngspice_Simulation/Final_Simulation/PostLayout
-```
-
-
-### To obtain the Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-
-
-Run the netlist file using the following command.
-```
-$  ngspice post_temp.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/PS/post_ps_temp.png">
-</p>
-
-
-### To obtain the Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
-
-Run the netlist file using the following command.
-```
-$  ngspice post_supply.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/PS/post_ps_supply.png">
-</p>
-
-### To obtain the Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
-
-Run the netlist file using the following command.
-```
-$  ngspice post_tc.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/PS/post_ps_tc.png">
-</p>
-
-### To obtain the Voltage Coefficent of Vbgp v/s VDD [ 2V - 4V ] @ RL = 100M ohms plot
-
-Run the netlist file using the following command.
-```
-$  ngspice post_vc.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/PS/post_ps_vc.png">
-</p>
-
-### To obtain the Start Up Time plot
-
-
-Run the netlist file using the following command.
-```
-$  ngspice post_startup.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/PS/post_ps_startup.png">
-</p>
-
-
-###  On-Off-Current of Vbgp wrt Enable [1 -> 0] @ RL = 100M ohms plot
-
-
-Run the netlist file using the following command.
-```
-$  ngspice post_enable.cir
-```
- <p align="center">
-  <img width="800" height="500" src="/Images/PS/post_ps_startup.png">
-</p>
-
-**Note:Current without Inverter for Enable Logic**
 
 ## Future Work
 
