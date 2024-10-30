@@ -32,29 +32,9 @@ The  Design Specifications of the Bandgap Reference Circuit can be found [here](
   <img width="800" height="500" src="/Images/N/circuit.png">
 </p>
 
-## Layout of the Bandgap Reference IP
 
-### Layout of the Complete Bandgap Reference Block with Start-up & Power Down
 
- <p align="center">
-  <img width="600" height="700" src="/Images/N/layout.png">
-</p>
-
-### Layout of Vertical Parasitic PNP BJT
-
- <p align="center">
-  <img width="500" height="400" src="/Images/N/bjt.png">
-</p>
-
-## Modification to the Technology File
-
-**To ensure that the Vertical Parasitic PNP BJT was recognized and extracted correctly, the line below was added to the Technology File.**
-
-```
- device bjt PNP nwell,nsc/a,nsd pdiff,pdc/a pwell,space/w,psc/a,psd 
-```
-
-## Bandgap Performance Parameters [Post-Layout]
+## Bandgap Performance Parameters 
 
 | Parameter| Description| Min | Type | Max | Unit | Condition |
 | :---:  | :-: | :-: | :-: | :---:  | :-: | :-: |
